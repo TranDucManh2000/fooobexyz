@@ -1,0 +1,359 @@
+/* pc tối thiểu 1020 thì chạy*/
+@media (min-width: 1020px) {
+  .menua {
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+    color: #fff;
+  }
+  .in {
+    margin-top: 10px;
+    width: 400px;
+    height: 20px;
+    border: 1px solid springgreen;
+    border-radius: 5px;
+  }
+  .dmsp {
+    margin-top: 20px;
+    height: 20px;
+    width: 300px;
+    border: 1px solid springgreen;
+    border-radius: 5px;
+  }
+  .fixurladmin{
+    width: 200px;
+    height: 100px;
+  }
+  .lec {
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    border: 1px solid springgreen;
+    border-radius: 5px;
+  }
+  .anhsp2 {
+    /* background-image: url("./../img/lycafe.jpg"); */
+    width: 99%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 2px 2px 2px;
+  }
+  .name2 {
+    font-size: 40px;
+    color: #fff;
+    margin: 10px;
+    text-shadow: 0px 0px 9px rgb(0, 195, 255);
+  }
+  .formlogin{
+      margin-left: 35%;
+      margin-top: 50px;
+      width: 400px;
+      height: auto;
+      background-color: rgba(255, 255, 255, 0.883);
+  }
+  .frommin{
+      width: 90%;
+      height: 80px;
+      margin-left: 5%;
+      margin-top: 10px;
+  }
+  .fon{
+      float: left;
+      font-size: 18px;
+  }
+  .inputlogin{
+      margin-top: 10px;
+      float: left;
+      width: 98%;
+      height: 30px;
+      border: 2px solid rgb(48, 202, 230);
+      border-radius: 5px;
+      outline:none;
+  }
+  .inputlogin:hover{
+    border: 2px solid rgb(241, 213, 48);
+  }
+  .btnlogin{
+      margin-top: 20px;
+      width: 220px;
+      height: 30px;
+      border-radius: 5px;
+      border: 1px solid yellow;
+      background-color: turquoise;
+  }
+  .btnlogin:hover{
+    background-color: rgb(16, 87, 153);
+    color: whitesmoke;
+  }
+  .chuyen1{
+      float: left;
+      color: tomato;
+  }
+  .chuyen2{
+    float: right;
+    color: tomato;
+}
+.ktrong{
+  margin-top: 120px;
+}
+.ttsp{
+  width: 60%;
+  height: 205px;
+  margin-left: 20%;
+  margin-top: 100px;
+  background-color: #fff;
+}
+.ctt{
+ text-align: left;
+}
+.anhcm{
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin: 2px 2px 2px;
+}
+.khungbl{
+  max-width: 99%;
+  min-height: 80px ;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid rgb(27, 214, 43);
+}
+.khungcmt2{
+  width: 50%;
+  min-height: 80px ;
+  margin-top: 10px;
+  margin-left: 25%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid rgb(27, 214, 43);
+}
+.avatar{
+  font-size: 30px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.nameav{
+  font-size: 15px;
+  margin-top: 0px;
+}
+.blname{
+  font-size: 15px;
+  float: left;
+  margin-left: 15px;
+}
+.inpbl{
+  float: left;
+  margin-left: 25px;
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid pink;
+}
+.khungcmt{
+  width: 100%;
+  max-height: 450px;
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.khungcmt::-webkit-scrollbar {
+  display: none; /* mau chot de tat */
+}
+.ttoan{
+  text-align: left;
+  width: 100%;
+  height: 100px;
+  clear: both;
+  color: red;
+}
+.hd{
+  float: left;
+  margin: 2% 2% 2%;
+}
+.btntt{
+  margin: 2% 2% 2%;
+  width: auto;
+  height: 30px;
+  background-color: rgb(11, 212, 21);
+  color: #fff;
+  border: 1px solid tan;
+  border-radius: 2em;
+}
+.btntt:hover{
+  background-color: rgb(5, 51, 32);
+  font-size: 110%;
+}
+} /* Đt tối đa 740 thì chạy*/
+@media (max-width: 740px) {
+  .menua {
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+    color: #fff;
+  }
+  .in {
+    margin-top: 10px;
+    width: 400px;
+    height: 20px;
+    border: 1px solid springgreen;
+    border-radius: 5px;
+  }
+  .dmsp {
+    margin-top: 20px;
+    height: 20px;
+    width: 300px;
+    border: 1px solid springgreen;
+    border-radius: 5px;
+  }
+  .fixurladmin{
+    width: 200px;
+    height: 100px;
+  }
+  .lec {
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    border: 1px solid springgreen;
+    border-radius: 5px;
+  }
+  .anhsp2 {
+    /* background-image: url("./../img/lycafe.jpg"); */
+    width: 99%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 2px 2px 2px;
+  }
+  .name2 {
+    font-size: 40px;
+    color: #fff;
+    margin: 10px;
+    text-shadow: 0px 0px 9px rgb(0, 195, 255);
+  }
+  .formlogin{
+      margin-left: 10%;
+      margin-top: 20%;
+      width: 80%;
+      height: auto;
+      background-color: rgba(255, 255, 255, 0.883);
+  }
+  .frommin{
+      width: 90%;
+      height: 80px;
+      margin-left: 5%;
+      margin-top: 10px;
+  }
+  .fon{
+      float: left;
+      font-size: 18px;
+  }
+  .inputlogin{
+      margin-top: 10px;
+      float: left;
+      width: 98%;
+      height: 30px;
+      border: 2px solid rgb(48, 202, 230);
+      border-radius: 5px;
+      outline:none;
+  }
+  .inputlogin:hover{
+    border: 2px solid rgb(241, 213, 48);
+  }
+  .btnlogin{
+      margin-top: 20px;
+      width: 220px;
+      height: 30px;
+      border-radius: 5px;
+      border: 1px solid yellow;
+      background-color: turquoise;
+  }
+  .btnlogin:hover{
+    background-color: rgb(16, 87, 153);
+    color: whitesmoke;
+  }
+  .chuyen1{
+      float: left;
+      color: tomato;
+  }
+  .chuyen2{
+    float: right;
+    color: tomato;
+}
+.ktrong{
+  margin-top: 120px;
+}
+.ttsp{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 100px;
+  background-color: #fff;
+}
+.anhcm{
+  width: 99%;
+  height: 180px;
+  float: left;
+  margin: 2px 2px 2px;
+}
+.khungbl{
+  width: 80%;
+  min-height: 80px ;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid rgb(27, 214, 43);
+}
+.khungcmt2{
+  width: 80%;
+  min-height: 80px ;
+  margin-top: 10px;
+  margin-left: 10%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid rgb(27, 214, 43);
+}
+.avatar{
+  font-size: 30px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.nameav{
+  font-size: 15px;
+  margin-top: 0px;
+}
+.blname{
+  font-size: 15px;
+  float: left;
+  margin-left: 15px;
+}
+.inpbl{
+  margin-top: 5%;
+  float: left;
+  margin-left: 2px;
+  width: 80%;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid pink;
+  margin-bottom: 5px;
+}
+.khungcmt{
+  width: 100%;
+  max-height: 380px;
+  margin-left: 10%;
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.khungcmt::-webkit-scrollbar {
+  display: none; /* mau chot de tat */
+}
+
+}
+/* Tablet */
+@media (min-width: 741px) and (max-width: 1019px) {
+}
